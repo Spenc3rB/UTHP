@@ -26,18 +26,22 @@ After submitting your logs, sign off with your initials to indicate that the log
 
 ## QA entry format:
 
-| Date       | Time | UTHP Serial Number | Test Results | Test Cases | Signed off by |
-|------------|------|--------------------|--------------|------------|-------------|
-| 2021-08-01 | 12:00| UTHP-R1-XXXX       | PASS/FAIL    | core         | SB |
-| 2021-08-01 | 12:00| UTHP-R1-XXXX       | PASS/FAIL    | plc         | SB |
-| 2021-08-01 | 12:00| UTHP-R1-XXXX       | PASS/FAIL    | remote          | SB |
+> Note: Test Cases column should be comma separated.
+
+| UTHP Serial Number | Test Results | Test Cases | Signed off by |
+|--------------------|--------------|------------|---------------|
+| UTHP-R1-XXXX       | PASS/FAIL    | core       | SB            |
+| UTHP-R1-XXXX       | PASS/FAIL    | core,plc   | SB            |
+| UTHP-R1-XXXX       | PASS/FAIL    | core,plc,remote | SB        |
+| UTHP-R1-XXXX       | PASS/FAIL    | core,plc,remote | SB        |
+| UTHP-R1-XXXX       | PASS/FAIL    | core,plc,remote,can0-2 | SB        |
 
 ## Test Results:
 
-| Date       | Time | UTHP Serial Number | Test Results | Test Cases | Signed off by |
-|------------|------|--------------------|--------------|------------|-------------|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| UTHP Serial Number | Test Results | Test Cases | Signed off by |
+|--------------------|--------------|------------|---------------|
+|      UTHP-R1-0032  |   PASS       | core,plc,remote  |  SB     |
+|                    |              |            |               |
+|                    |              |            |               |
+|                    |              |            |               |
+|                    |              |            |               |
