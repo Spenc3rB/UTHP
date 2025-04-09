@@ -40,8 +40,8 @@ After submitting your logs, sign off with your initials to indicate that the log
 
 | UTHP Serial Number | Test Results | Test Cases | Signed off by | Notes |
 |--------------------|--------------|------------|---------------|---------------|
-|      UTHP-R1-0032  |   PASS       | core,plc,remote,can0-2  |  SB     | can0-2 test was not peformed on 12v line yet. |
-|                    |              |            |               |
+|      UTHP-R1-0032  |   PASS       | core,plc,remote,can0-2  |  SCB     | all tests passed. |
+|     UTHP-R1-0032   |       PASS  |  core,plc,remote,can0-2 |  CTG  | all tests passed. |
 |                    |              |            |               |
 |                    |              |            |               |
 |                    |              |            |               |
